@@ -11,7 +11,7 @@
 
 #include "DetectorConstruction.hh"
 #include "ActionInitialization.hh"
-#include "FTFP_BERT.hh"
+#include "FTFP_BERT_HP.hh"
 
 int main(int argc, char** argv)
 {
@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 
     // Set mandatory initialization classes
     runManager->SetUserInitialization(new DetectorConstruction());
-    runManager->SetUserInitialization(new FTFP_BERT());
+    runManager->SetUserInitialization(new FTFP_BERT_HP());
     runManager->SetUserInitialization(new ActionInitialization());
 
     // Initialize visualization
