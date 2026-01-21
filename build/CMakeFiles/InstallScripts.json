@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/enrg/Desktop/geant4-template/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
